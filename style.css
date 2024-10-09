@@ -1,0 +1,93 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.966);
+    margin: 0% 1% 0% 70%;
+    height: 165px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 10px aqua;
+}
+.monthes{
+    display: flex;
+    justify-content: center;
+    border: 4px solid;
+}
+.month{
+    width: 90%;
+    height: 580px;
+    border: 2px solid red;
+    background-image: url('junbg.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 28px;
+    margin: 25px;
+}
+:hover.month{
+    box-shadow: 0 0 20px 5px red;
+}
+.mn{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+
+}
+.mn-img{
+    display: flex;
+    align-items: center;
+}
+.occasion{
+    display: flex;
+    align-items: center;
+    margin: 10px 50px;
+    border: 3px orange;
+    box-shadow: inset 0 0 20px 13px orange;
+    border-radius: 20px;
+}
+.mi{
+    height: 250px;
+    box-shadow:0px 0px 20px 10px rgb(213, 122, 25) ;
+    border-radius: 20px 0;
+}
+.mb{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+.dt{
+    width: 55%;
+}
+ table{
+    border: 5px solid;
+    border-radius: 12px 0;
+    border-style: solid;
+    height: 100%;
+    width: 90%;
+    box-shadow:0px 0px 20px 10px rgb(81, 244, 27) ;
+}
+th{
+    border: 1px solid;
+    border-radius: 12px 0;
+    border-style: solid;
+    padding: 0 5px;
+    font-size: larger;
+    
+}
+tr{
+    border: 1px solid;
+    border-radius: 12px;
+    border-style: solid;
+    
+}
+td{
+    border: 1px solid;
+    border-radius: 12px;
+    border-style: solid;
+    text-align: center;
+    font-size: x-large;
+}
+td:hover{
+    background-color: rgba(87, 122, 226, 0.435);
+    box-shadow: 0 0 5px 2px royalblue;
+}
