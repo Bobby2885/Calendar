@@ -30,6 +30,9 @@
 .feb:hover{
     box-shadow: 0 0 20px 5px rgb(246, 25, 198);
 }
+.march:hover{
+    box-shadow: 0 0 20px 5px rgb(246, 25, 198);
+}
 .mn{
     display: flex;
     justify-content: space-between;
@@ -39,6 +42,7 @@
 .mn-img{
     display: flex;
     align-items: center;
+    filter: drop-shadow(0 -13px 1px rgb(82, 71, 100));
 }
 .occasion{
     display: flex;
@@ -52,6 +56,10 @@
     box-shadow: inset 0 0 20px 13px rgba(255, 166, 0, 0.554);
 }
 .occ-feb{
+    border: 3px #f0a9af;
+    box-shadow: inset 0 0 20px 13px #e55264;
+}
+.occ-march{
     border: 3px #f0a9af;
     box-shadow: inset 0 0 20px 13px #e55264;
 }
@@ -72,6 +80,11 @@
         background-color:  #ef96af;
     }
 }
+.occ-listmarch{
+    li{
+        background-color:  #ef96af;
+    }
+}
 
 .mi{
     height: 250px;
@@ -82,6 +95,9 @@
 }
 .mi-feb{
     box-shadow:0px 0px 20px 10px  rgba(222, 42, 105, 0.635) ;
+}
+.mi-march{
+    box-shadow:0px 0px 20px 10px  rgba(42, 96, 233, 0.635) ;
 }
 .mo{
     display: flex;
@@ -101,11 +117,12 @@
     width: 55%;
 }
  table{
-    border: 5px solid;
+    border: 3px solid;
     border-radius: 12px 0;
     border-style: solid;
     height: 100%;
     width: 90%;
+    padding: 5px;
 }
 .jan-dates{
     box-shadow:0px 0px 20px 10px rgb(81, 244, 27) ;
@@ -113,11 +130,15 @@
 .feb-dates{
     box-shadow:0px 0px 20px 10px  rgba(222, 42, 105, 0.887) ;
 }
+.march-dates{
+    box-shadow:0px 0px 20px 10px  rgba(222, 42, 105, 0.887) ;
+}
 th{
     border: 1px solid;
     border-radius: 12px 0;
     border-style: solid;
     padding: 0 5px;
+    margin: 3px;
     font-size: larger;
     
 }
@@ -142,6 +163,10 @@ td{
     background-color: #fcd1d3;
     box-shadow: inset 0 0 5px 2px#eb8f98;
 }
+.march-dates tr td:hover{
+    background-color:#bdddfd;
+    box-shadow: inset 0 0 5px 2px#81baf7;
+}
 .odj{
     background-color:  rgb(255, 204, 110);
     box-shadow: inset 0 0 10px 2px orange;
@@ -149,4 +174,8 @@ td{
 .odf{
     background-color:  #ef96af;
     box-shadow: inset 0 0 10px 2px #ba1734;
+}
+.odm{
+    background-color:  #6381e0 ;
+    box-shadow: inset 0 0 10px 2px #5768d6;
 }
